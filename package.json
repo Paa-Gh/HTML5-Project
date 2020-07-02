@@ -1,5 +1,11 @@
 {
-  "name": "html5",
-  "private": true,
-  "dependencies": {}
+  "name": "my-personal-projects",
+  "version": "1.0.0",
+  "description": "This will load my personal projects",
+  "scripts": {
+    "start": "harp server --port $PORT"
+  },
+  "dependencies": {
+    "harp": "*"
+  }
 }
